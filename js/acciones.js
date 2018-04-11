@@ -12,7 +12,7 @@
 		},false);//pause
 		document.addEventListener("resume",function(){
 			escribehistoria ('la app se reinició');
-		}.false);//resume
+		},false);//resume
 		document.addEventListener("online",function(){
 			escribehistoria ('la app se conecto a la red');
 		},false);//se conecto
@@ -21,7 +21,7 @@
 		},false);//se desconecto
 		
 		
-		}.false);//ready device
+		},false);//ready device
 		
 		
 	});//document
